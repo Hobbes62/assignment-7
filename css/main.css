@@ -1,0 +1,79 @@
+html {
+box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+.masthead {
+	padding: 1em;
+	background-image: url("../images/"waves.png"), url("../images/"), ;
+
+	background-size: 160px auto, 160px auto;
+	background-repeat: repeat, no-repeat;
+	background-position: center 10px, left top;
+	text-align: center;
+	}
+
+img {
+width: 100%;
+display: block;}
+
+.box {
+background-color: #333333;
+padding: 1em;
+position: relative;}
+
+.btn-1{
+display: inline-block;
+background-color: #a8ae98;
+border-radius: 10px;
+padding: 0.5em 0.75em;
+text-decoration: none;
+color: #fff;
+background-image: linear-gradient(to bottom, #6FC000, #388200);
+position: ;
+left: 350px;
+top: 0px;
+font-family: 'Dosis', sans-serif;}
+
+
+.btn-2{
+display: inline-block;
+background-color: #a8ae98;
+border-radius: 10px;
+padding: 0.5em 0.75em;
+text-decoration: none;
+color: #fff;
+background-image: linear-gradient(to bottom, #6FC000, #388200);
+position: ;
+left: 350px;
+top: 0px;
+font-family: 'Dosis', sans-serif;}
+
+.btn-3{
+display: inline-block;
+background-color: #a8ae98;
+border-radius: 10px;
+padding: 0.5em 0.75em;
+text-decoration: none;
+color: #fff;
+background-image: linear-gradient(to bottom, #6FC000, #388200);
+position: ;
+left: 350px;
+top: 0px;
+font-family: 'Dosis', sans-serif;}
+
+.btn-4{
+display: inline-block;
+background-color: #a8ae98;
+border-radius: 10px;
+padding: 0.5em 0.75em;
+text-decoration: none;
+color: #fff;
+background-image: linear-gradient(to bottom, #6FC000, #388200);
+position: ;
+left: 350px;
+top: 0px;
+font-family: 'Dosis', sans-serif;}
