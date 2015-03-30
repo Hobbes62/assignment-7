@@ -21,6 +21,7 @@ h1 {
 	color: #663300;
 	padding: 0em 0em;
 	margin: 0em;
+	font-family: 'dosis';
 }
 
 h2 {
@@ -33,7 +34,28 @@ h2 {
 
 }
 
+.bdiv {
+	{
+		background-color: white;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+}
 
+
+
+.beetles25 {
+	position: absolute;
+	top: 40%;
+	left: 0em;
+	text-align: center;
+	color: white;
+	display: inline-block;
+	font-size: 1.5em;
+	width: 100%;
+	text-shadow: #222222 1px 3px 2px;
+}
 
 
 
@@ -44,7 +66,9 @@ display: block;}
 .box {
 background-color: #333333;
 padding: 0em;
-position: relative;}
+position: relative;
+margin: 0em;
+}
 
 .btn-1{
 display: inline-block;
@@ -54,10 +78,11 @@ padding: 0.5em 0.75em;
 text-decoration: none;
 color: #fff;
 background-image: linear-gradient(to bottom, #6FC000, #388200);
-position: ;
-left: 350px;
-top: 0px;
-font-family: 'Dosis', sans-serif;}
+position: absolute;
+left: 65px;
+top: 160px;
+font-family: 'Dosis', sans-serif;
+}
 
 
 .btn-2{
@@ -68,9 +93,9 @@ padding: 0.5em 0.75em;
 text-decoration: none;
 color: #fff;
 background-image: linear-gradient(to bottom, #6FC000, #388200);
-position: ;
-left: 350px;
-top: 0px;
+position: absolute;
+right: 65px;
+bottom: 160px;
 font-family: 'Dosis', sans-serif;}
 
 .btn-3{
@@ -81,9 +106,9 @@ padding: 0.5em 0.75em;
 text-decoration: none;
 color: #fff;
 background-image: linear-gradient(to bottom, #6FC000, #388200);
-position: ;
-left: 350px;
-top: 0px;
+position: absolute;
+left: 65px;
+top: 460px;
 font-family: 'Dosis', sans-serif;}
 
 .btn-4{
@@ -94,9 +119,9 @@ padding: 0.5em 0.75em;
 text-decoration: none;
 color: #fff;
 background-image: linear-gradient(to bottom, #6FC000, #388200);
-position: ;
-left: 350px;
-top: 0px;
+position: absolute;
+right: 65px;
+top: 460px;
 font-family: 'Dosis', sans-serif;}
 
 .stag-b {
@@ -160,7 +185,7 @@ nav li {
 nav a{
 	padding: .5em .5em .5em .5em;
 	border-radius: 0px;
-	background-color: #b2a215;
+	background-color: brown;
 	color: #fff;
 	text-decoration: none;
 	font-weight: normal;
@@ -171,5 +196,10 @@ background-color: #663300;}
 
 footer {
 	background-color: #444;
+	padding: 2em 1em 1em 2em;
+}
+
+.fdiv {
+		background-color: #444;
 	padding: 2em 1em 1em 2em;
 }
